@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment (don't copy .env into image - use env vars)
+.env
+.env.local
+.env.*.local
+env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+README_LANGCHAIN.md
+AWS_DEPLOYMENT.md
+COMPATIBILITY_REPORT.md
+CLEANUP_SUMMARY.md
+*.md
+
+# Test files
+tests/
+test_*.py
+*_test.py
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Old application files (not needed)
+app.py
+train.py
+crew.py
+crew_app.py
+support_tools.py
+support-agent.py
+my_ai_model.pkl
+uv.lock
+
+# Deployment scripts
+deploy.ps1
+deploy.sh
+
